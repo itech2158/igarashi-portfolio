@@ -37,8 +37,6 @@ img {
   display: none;
 }
 
-@media screen and (min-width: 989px){
-
 /* ヘッダー */
 
 header {
@@ -155,7 +153,8 @@ header .site-title {
 
 .mv {
   position: relative;
-  max-width: 100%;
+  /* max-width: 1366px; */
+  width: 100%;
   height: 768px;
   background-image: url(../images/top-image.png);
 	background-size: cover;
@@ -212,6 +211,55 @@ header .site-title {
   opacity: 0.8;
 }
 
+@media screen and (min-width: 1367px){
+  .main-copy{
+    width: 850px;
+    height: 100px;
+    position: absolute;
+    top: 334px;
+    left: 32px;
+    font-family: Bad Script; 
+    font-size: 2.5em;
+    line-height: 100px;
+    color: #315611;
+    z-index: 10;
+  }
+  
+  .main-bg {
+    width: 850px;
+    height: 100px;
+    position: absolute;
+    top: 334px;
+    left: 0;
+    background: #fff;
+    opacity: 0.8;
+  }
+  
+  .sub-copy {
+    width: 533px;
+    height: 60px;
+    position: absolute;
+    top: 458px;
+    left: -12px;
+    font-family: Sawarabi Gothic;
+    font-size: 1.5em;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #572B23;
+    z-index: 10;
+  }
+  
+  .sub-bg {
+    width: 533px;
+    height: 60px;
+    position: absolute;
+    top: 458px;
+    left: 0;
+    background: #fff;
+    opacity: 0.8;
+  }
+}
+
 .btn {
   width: 200px;
   height: 56px;
@@ -219,7 +267,6 @@ header .site-title {
   font-family: Bad Script;
   font-size: 1.44em;
   line-height: 56px;
-  opacity: 0.8;
   border: solid 1px #572B23;
   transition: 0.5s;
   padding: 0;
@@ -230,8 +277,7 @@ header .site-title {
   left: 50%;
   transform: translateX(-50%);
   color: #572B23;
-  background: #fff;
-  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.6);
   border: solid 1px #572B23;
 }
 
@@ -270,10 +316,8 @@ header .site-title {
 }
 
 #profile .container {
-  /* max-width: 99.191vw;  */
-  width: 981px;
+  max-width: 989px;
   display: flex;
-  /* margin-left: 23.559vw; */
   margin-left: 233px;
 }
 
@@ -284,12 +328,9 @@ header .site-title {
 }
 
 #profile .img-wrapper {
-  /* width: 29.283vw; */
   width: 400px;
-  /* height: 36.603vw; */
   height: 500px;
   position: relative;
-  /* margin: 9.37vw 6.442vw 6.442vw 0; */
   margin: 128px 88px 88px 0;
 }
 
@@ -335,19 +376,9 @@ header .site-title {
   margin-top: 128px;
 }
 
-/* #profile .contents {
-  width: 36.091vw;
-  height: 29.575vw;
-  margin-top: 9.37vw;
-} */
-
 .module__header {
   margin: 0 0 50px;
 }
-
-/* .module__header {
-  margin: 0 0 3.66vw;
-} */
 
 #profile .module__header span {
   width: 289px;
@@ -356,62 +387,29 @@ header .site-title {
   right: 40px;
 }
 
-/* #profile .module__header span {
-  width: 21.157vw;
-  height: 17.35vw;
-  top: 0px;
-  right: 2.928vw;
-} */
-
 .profile-text {
   font-family: Sawarabi Gothic;
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight: normal;
   line-height: 2;
-  letter-spacing: 0.36px;
+  letter-spacing: 0.02em;
   color: #572B23;
   position: absolute;
   top: 206px;
 }
 
-/* .profile-text {
-  font-family: Sawarabi Gothic;
-  font-size: 1.318vw;
-  font-weight: normal;
-  line-height: 2;
-  letter-spacing: 0.026vw;
-  color: #572B23;
-  position: absolute;
-  top: 15.081vw;
-} */
-
 #instagram-btn, #twitter-btn {
   color: #315611;
-  background: #fff;
-  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.6);
   border: solid 1px #315611;
   transition: 0.5s;
   text-align: center;
   margin-top: 351px;
 }
 
-/* #instagram-btn, #twitter-btn {
-  color: #315611;
-  background: #fff;
-  opacity: 0.8;
-  border: solid 1px #315611;
-  transition: 0.5s;
-  text-align: center;
-  margin-top: 25.695vw;
-} */
-
 #twitter-btn {
   margin-left: 240px;
 }
-
-/* #twitter-btn {
-  margin-left: 17.57vw;
-} */
 
 #instagram-btn:hover, #twitter-btn:hover  {
   background: #315611;
@@ -459,6 +457,7 @@ header .site-title {
 
 #works .module__title {
   margin-top: 7px;
+  z-index: 20;
 }
 
 #works .module__header {
@@ -473,6 +472,7 @@ header .site-title {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 10;
 }
 
 #works .img-wrapper {
@@ -538,7 +538,7 @@ header .site-title {
   font-family: Sawarabi Gothic;
   font-size: 0.875em;
   line-height: 40px;
-  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.6);
   border: solid 1px #315611;
   color: #315611;
   transition: 0.5s;
@@ -575,15 +575,6 @@ header .site-title {
   height: 520px;
   display: flex;
   margin: 0 auto;
-}
-
-@media screen and (max-width: 1024px){
-  #skill .container {
-    width: 769px;
-    height: 520px;
-    display: flex;
-    margin: 0 auto;
-  }
 }
 
 #skill .contents {
@@ -776,13 +767,12 @@ textarea {
 
 #submit-btn {
   top: 803px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 349px;
   color: #315611;
-  background: #fff;
-  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.6);
   border: solid 1px #315611;
   text-align: center;
+  z-index: 20;
 }
 
 #submit-btn:hover {
@@ -826,8 +816,6 @@ small {
 
 footer p {
   color: #572B23;
-}
-
 }
 
 

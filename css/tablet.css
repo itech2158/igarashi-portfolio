@@ -151,6 +151,7 @@ header .site-title {
 
 .mv {
   position: relative;
+  /* max-width: 768px; */
   width: 100%;
   height: 1023px;
   background-image: url(../images/top-image@2x.png);
@@ -162,20 +163,20 @@ header .site-title {
 }
 
 .main-copy{
-  width: 100%;
+  width: 768px;
   height: 100px;
   position: absolute;
   top: 462px;
   left: 0;
   font-family: Bad Script; 
-  font-size: 2.5em;
+  font-size: 40px;
   line-height: 100px;
   color: #315611;
   z-index: 10;
 }
 
 .main-bg {
-  width: 100%;
+  width: 768px;
   height: 100px;
   position: absolute;
   top: 462px;
@@ -185,20 +186,20 @@ header .site-title {
 }
 
 .sub-copy {
-  width: 44.79%;
+  width: 344px;
   height: 60px;
   position: absolute;
   top: 602px;
   left: 2px;
   font-family: Sawarabi Gothic;
-  font-size: 1.5em;
+  font-size: 24px;
   line-height: 60px;
   color: #572B23;
   z-index: 10;
 }
 
 .sub-bg {
-  width: 44.79%;
+  width: 344px;
   height: 60px;
   position: absolute;
   top: 602px;
@@ -214,7 +215,6 @@ header .site-title {
   font-family: Bad Script;
   font-size: 1.44em;
   line-height: 56px;
-  opacity: 0.8;
   border: solid 1px #572B23;
   transition: 0.5s;
   padding: 0;
@@ -225,8 +225,7 @@ header .site-title {
   left: 50%;
   transform: translateX(-50%);
   color: #572B23;
-  background: #fff;
-  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.6);
   border: solid 1px #572B23;
 }
 
@@ -276,7 +275,7 @@ br {
   max-width: 768px;
   height: 758px;
   display: flex;
-  margin: 0;
+  margin: 0 auto;
 }
 
 #profile .img-wrapper {
@@ -325,7 +324,6 @@ br {
 #profile .contents {
   width: 493px;
   height: 407px;
-
 }
 
 .module__header {
@@ -360,19 +358,23 @@ br {
 
 #instagram-btn, #twitter-btn {
   position: absolute;
-  top: 622px;
-  left: 172px;
   color: #315611;
-  background: #fff;
-  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.6);
   border: solid 1px #315611;
   transition: 0.5s;
   text-align: center;
   margin-top: 0px;
 }
 
+#instagram-btn {
+  top: 622px;
+  margin-left: -200px;
+  /* left: 172px; */
+}
+
 #twitter-btn {
-  margin-left: 224px;
+  top: 622px;
+  margin-left: 24px;
 }
 
 #instagram-btn:hover, #twitter-btn:hover  {
@@ -493,12 +495,11 @@ br {
   width: 120px;
   height: 40px;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 324px;
   font-family: Sawarabi Gothic;
   font-size: 0.875em;
   line-height: 40px;
-  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.6);
   border: solid 1px #315611;
   color: #315611;
   transition: 0.5s;
@@ -740,11 +741,9 @@ textarea {
 
 #submit-btn {
   top: 767px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 284px;
   color: #315611;
-  background: #fff;
-  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.6);
   border: solid 1px #315611;
   text-align: center;
 }
