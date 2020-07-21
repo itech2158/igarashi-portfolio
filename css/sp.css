@@ -499,7 +499,7 @@ br, .tl-br {
 }
 
 .profile-text {
-　-webkit-width: 89.6vw;
+  -webkit-width: 89.6vw;
   width: 89.6vw;
   /* width: 336px; */
   height: 100vw;
@@ -514,15 +514,17 @@ br, .tl-br {
   top: 142.667vw;
   /* top: 535px; */
   left: 50%;
-　-webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
 }
 
 @media screen and (max-width: 320px){
   #profile .module__header span {
     left: 50%;
-　　-webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
   }
 
   .profile-text {
