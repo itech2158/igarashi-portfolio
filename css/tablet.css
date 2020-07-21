@@ -29,7 +29,6 @@ img {
 }
 
 *, *:before, *:after {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -38,11 +37,7 @@ img {
 /* ヘッダー */
 
 header {
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  -ms-flex-pack: justify;
-  -webkit-justify-content: space-between;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -191,7 +186,7 @@ header .site-title {
   position: absolute;
   top: 602px;
   left: 2px;
-  font-family: Sawarabi Gothic;
+  font-family: Osaka, Sawarabi Gothic;
   font-size: 24px;
   line-height: 60px;
   color: #572B23;
@@ -693,6 +688,38 @@ ul.skill-list li:before{
   font-size: 1em;
   color: #572B23;
   margin-bottom: 60px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  font-family: Bad Script;
+  font-size: 1em;
+  color: #315611;
+  padding-left: 4px;
+  opacity: 0.5;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  font-family: Bad Script;
+  font-size: 1em;
+  color: #315611;
+  padding-left: 4px;
+  opacity: 0.5;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  font-family: Bad Script;
+  font-size: 1em;
+  color: #315611;
+  padding-left: 4px;
+  opacity: 0.5;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  font-family: Bad Script;
+  font-size: 1em;
+  color: #315611;
+  padding-left: 4px;
+  opacity: 0.5;
 }
 
 input::placeholder, textarea::placeholder {
