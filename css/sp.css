@@ -499,6 +499,7 @@ br, .tl-br {
 }
 
 .profile-text {
+　-webkit-width: 89.6vw;
   width: 89.6vw;
   /* width: 336px; */
   height: 100vw;
