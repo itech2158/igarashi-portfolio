@@ -188,9 +188,15 @@ header .site-title {
 .list-item {
   width: 100%;
   /* メニューテキスト位置をリスト内中心に */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /***** メニューオープン時位置0にして画面内に *****/
