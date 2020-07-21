@@ -365,7 +365,7 @@ header .site-title {
 /* contents base */
 
 .module__title {
-  font-family: Sawarabi Gothic;
+  font-family: Osaka, Sawarabi Gothic;
   font-size: 2em;
   font-weight: normal;
   color: #572B23;
@@ -504,7 +504,7 @@ br, .tl-br {
   /* width: 336px; */
   height: 100vw;
   /* height: 375px; */
-  font-family: Sawarabi Gothic;
+  font-family: Osaka, Sawarabi Gothic;
   font-size: 4.267vw;
   font-weight: normal;
   line-height: 2;
@@ -684,7 +684,7 @@ br, .tl-br {
 }
 
 .sub-title {
-  font-family: Sawarabi Gothic;
+  font-family: Osaka, Sawarabi Gothic;
   font-size: 1.5em;
   font-weight: normal;
   line-height: 1.47;
@@ -693,7 +693,7 @@ br, .tl-br {
 }
 
 .text {
-  font-family: Sawarabi Gothic;
+  font-family: Osaka, Sawarabi Gothic;
   font-size: 1em;
   line-height: 1.5;
   letter-spacing: 0.032em;
@@ -717,7 +717,7 @@ br, .tl-br {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-family: Sawarabi Gothic;
+  font-family: Osaka, Sawarabi Gothic;
   font-size: 0.875em;
   line-height: 40px;
   background: rgba(255, 255, 255, 0.6);
@@ -842,7 +842,7 @@ ul.skill-list li{
   position: relative;
   padding-left: 5.6vw;
   /* padding-left: 21px; */
-  font-family: Sawarabi Gothic;
+  font-family: Osaka, Sawarabi Gothic;
   font-size: 4.267vw;
   font-weight: normal;
   line-height: 2;
@@ -1134,4 +1134,6 @@ footer p {
 }
 
 }
+
+
 
