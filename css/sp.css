@@ -506,7 +506,7 @@ br, .tl-br {
 }
 
 .profile-text {
-  -webkit-width: 89.6vw;
+  -webkit-width: 100%;
   width: 89.6vw;
   /* width: 336px; */
   /* width: 336px; */
