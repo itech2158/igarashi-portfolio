@@ -766,7 +766,7 @@ input {
   border: none;
   outline: none;
   background-color: transparent;
-  padding-bottom: 8px;
+  /* padding-bottom: 8px; */
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
