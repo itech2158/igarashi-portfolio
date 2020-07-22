@@ -536,6 +536,7 @@ br, .tl-br {
 
   .profile-text {
     font-size: 0.8em;
+    letter-spacing: 0.032em;
     padding: 0 2vw;
   }
 }
