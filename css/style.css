@@ -762,7 +762,7 @@ form .item {
 
 input {
   margin: 0;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   border: none;
   outline: none;
   background-color: transparent;
