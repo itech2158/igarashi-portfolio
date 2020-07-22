@@ -1037,7 +1037,7 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder {
 
 input::placeholder, textarea::placeholder {
   font-family: Bad Script;
-  font-size: 1em;
+  font-size: 0.8em;
   color: #315611;
   padding-left: 1.067vw;
   /* padding-left: 4px; */
@@ -1059,6 +1059,7 @@ input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  vertical-align: middle;
 }
 
 textarea {
